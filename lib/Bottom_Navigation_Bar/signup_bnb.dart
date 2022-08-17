@@ -24,7 +24,7 @@ class Signup_BNB extends StatefulWidget {
             ),
             GestureDetector(
               onTap: () {
-                Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => RegistrationPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (_) => RegistrationPage()));
               },
               child: Text(
                 'SIGN UP',
